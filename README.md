@@ -1,2 +1,4 @@
 # Buffer-Overflow-Detection
-System to detect the buffer overflow in the source code. It takes source code in C/C++ language and check for 8 type of buffer overflow vulnerability.
+System to detect the buffer overflow in the source code. It takes source code in C/C++ language and check for 8 type of buffer overflow vulnerability. The 8 types are **Stack-based Buffer Overflow, Heap-based Buffer Overflow, Buffer Underwrite, Buffer Overread, Buffer Underread, Integer Overflow or Wraparound, Integer Underflow and Free of Pointer – not at Start of Buffer were analyzed. **
+
+This project is the implementation of a paper "An approach for predicting multiple-type overflow vulnerabilities based on combination features and a time series neural network algorithm" published by Z. Zheng, B. Zhang, Y. Liu, J. Ren, X. Zhao and Q. Wang in 2021. Here is the citation Z. Zheng, B. Zhang, Y. Liu, J. Ren, X. Zhao and Q. Wang, ”An approach for predicting multiple-type overflow vulnerabilities based on combination features and a time series neural network algorithm,” Computers Security, vol. 114, pp. 102572, 2022. DOI: 10.1016/j.cose.2021.10257
